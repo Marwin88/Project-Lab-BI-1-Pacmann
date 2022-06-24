@@ -121,23 +121,42 @@ d.	Merge data dan dapatkan data kekerasan anak per kota kabupaten dan per tahun
 2.	Data Join – Data Kekerasan Anak dan data Kekerasan dalam Rumah Tangga
 Dalam proses ini kita akan mencoba memapping kan data kekerasan anak dan juga kekerasan dalam rumah tangga, dan mendapat data granularity level kota kabupaten dan per tahun. Berikut ini adalah gambaran diagram alur pengerjaan nya dan beberapa point penting di step ini.
 
- 
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture7.png" width="350" title="hover text">
+</p>
 
 a.	Mengasumsikan data di kekerasan dalam rumah tangga yang ada dari 2018 dan 2021, diubah menjadi 2018 dan 2020
- 
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture8.png" width="350" title="hover text">
+</p>
+
 b.	Merge data dan dapatkan data kekerasan anak dan mapping nya dengan data kekerasan dalam rumah tangga
- 
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture9.png" width="350" title="hover text">
+</p>
 
 3.	Data cleaning untuk index kesehatan
 Untuk data index kesehatan, karena data nya berasal dari source data yang sama maka lebih mudah dalam penggabungan datanya. Secara general hanya akan banyak memakai syntax merge dan drop and rename column. Berikut diagram alur pengerjaan nya.
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture10.png" width="350" title="hover text">
+</p>
  
 iii.	Data Visualization
 Dengan data yang sudah clean dengan proses sebelumnya, maka akan lebih mudah untuk menganalisa dan mendapatkan insight saat data kita masukkan ke dalam tableau. Pada dasarnya di proses ini berikut adalah diagram alurnya.
  
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture11.png" width="350" title="hover text">
+</p>
 
 b.	User Flow
 Setelah dashboard jadi dan terpublish secara publik, berikut adalah userflow yang kita harapkan nantinya akan dijalankan oleh user. Dengan userflow ini akan menjawab beberapa pertanyaan yang sudah ter state di sub bab sebelumnya.
- 
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture12.png" width="350" title="hover text">
+</p>
 
 1.	Call an action
 Adalah dashboard pertama setelah homepage yang akan dijumpai oleh user, dari sini user akan langsung melihat analytics result dari area mana saja yang menjadi perhatian khusus dari sisi index kesehatan dan kekerasan rumah tangga. Hal ini akan menyelesaikan masalah di point D dan E di sub bab sebelumnya.
