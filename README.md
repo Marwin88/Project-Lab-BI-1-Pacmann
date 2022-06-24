@@ -2,7 +2,7 @@
 
 <h2>1.	Background</h2>
 
-Kekerasan Dalam Rumah Tangga (KDRT) merupakan salah satu masalah yang bersifal global yang berdampak luas terhadap kesehatan. Kekerasan tersebut bukan hanya yang         berbentuk fisik, tetapi juga kekerasan psikis, sosial ekonomi dan seksual yang sering kali luput dari perhatian. Pemerintah dalam hal ini berupaya untuk  mengendalikan Kekerasan Dalam Rumah Tangga dalam rangka meningkatkan kualitas kesehatan masyarakat.
+Kekerasan Dalam Rumah Tangga (KDRT) merupakan salah satu masalah yang bersifal global yang berdampak luas terhadap kesehatan. Kekerasan tersebut bukan hanya yang        berbentuk fisik, tetapi juga kekerasan psikis, sosial ekonomi dan seksual yang sering kali luput dari perhatian. Pemerintah dalam hal ini berupaya untuk  mengendalikan Kekerasan Dalam Rumah Tangga dalam rangka meningkatkan kualitas kesehatan masyarakat.
 IPKM adalah kumpulan indikator kesehatan yang dapat digunakan untuk menggambarkan masalah kesehatan. Banyaknya jenis indikator ini menyebabkan Pemerintah kesulitan dalam menentukan indikator mana yang menjadi sasaran prioritas pembanguan kesehatan masyarakat. Sehingga dalam hal ini, kami ingin membantu Pemerintah untuk menganalisis korelasi diantara indikator-indikator yang ada dalam IPKM. Indikator mana yang merupakan penentu dari suatu program yang akan dijalankan Pemerintah. 
 Masalah tidak selesai hanya sampai dengan penentuan indikator dalam IPKM, masalah lain muncul ketika suatu program telah ditentukan dan dijalankan maka dibutuhkan suatu alat untuk memonitor perkembangan dari program tersebut. Pastinya, perubahan akan selalu terjadi. Begitu juga dengan nilai dari indeks-indeks pada IPKM. Oleh karena itu, analyst perlu melakukan pengecekan terhadap efektivitas dari korelasi yang telah ditentukan sejaln dengan penambahan data baru. 
 
@@ -14,11 +14,17 @@ IPKM sebagai salah satu alat monitor keberhasilan pembangunan kesehatan masyarak
 <h3>i)	Problem Statement dan personas</h3>
 
 Diharpakan dengan meningkatnya kesehatan dalam masyarakat, tindakan kekerasan dalam rumah tangga menjadi menurun. Oleh karena itu inisiatif yang kami usulkan adalah:
-A.	Menganalisa dan mengevaluasi masing-masing indikator 
-B.	Mencari korelasi antara indikator yang ada
-C.	Membuktikan dan meilhat korelasi antara indikator kesehatan dan indikator kekerasan dalam rumah tangga
-D.	Menentukan indikator mana yang menjadi sasaran prioritas dari indikator kesehatn 
-E.	Melakukan evaluasi berkelanjutan, secara khusus dari indikator-indikator terpilih dan secara umum dari semua indikator
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A.	Menganalisa dan mengevaluasi masing-masing indikator
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.	Mencari korelasi antara indikator yang ada
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.	Membuktikan dan meilhat korelasi antara indikator kesehatan dan indikator kekerasan dalam rumah tangga
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.	Menentukan indikator mana yang menjadi sasaran prioritas dari indikator kesehatan 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.	Melakukan evaluasi berkelanjutan, secara khusus dari indikator-indikator terpilih dan secara umum dari semua indikator
+
 Inisiatif akan dibuat dalam product yang berbentuk dashboard dengan data yang didapatkan dari open data Jawa Barat dan website KPAI. Produk ini didesain untuk Pemerintah dan Kementrian Kesehatan Provinsi Jawa Barat, dan juga analyst sebagai PIC yang melakukan pengolahan dari data.
 
 <h3>ii)	MVP features</h3>
