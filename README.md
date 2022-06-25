@@ -154,24 +154,100 @@ iii.	Data Visualization
 Dengan data yang sudah clean dengan proses sebelumnya, maka akan lebih mudah untuk menganalisa dan mendapatkan insight saat data kita masukkan ke dalam tableau. Pada dasarnya di proses ini berikut adalah diagram alurnya.
  
  <p align="center">
-  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture11.png" width="350" title="hover text">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture15.png" width="350" title="hover text">
 </p>
 
 b.	User Flow
 Setelah dashboard jadi dan terpublish secara publik, berikut adalah userflow yang kita harapkan nantinya akan dijalankan oleh user. Dengan userflow ini akan menjawab beberapa pertanyaan yang sudah ter state di sub bab sebelumnya.
 
  <p align="center">
-  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture12.png" width="350" title="hover text">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture11.png" width="350" title="hover text">
 </p>
 
-1.	Call an action
+1.	Correlation Index
 Adalah dashboard pertama setelah homepage yang akan dijumpai oleh user, dari sini user akan langsung melihat analytics result dari area mana saja yang menjadi perhatian khusus dari sisi index kesehatan dan kekerasan rumah tangga. Hal ini akan menyelesaikan masalah di point D dan E di sub bab sebelumnya.
 D. Menentukan indikator mana yang menjadi sasaran prioritas dari indikator kesehatan
 E. Melakukan evaluasi berkelanjutan, secara khusus dari indikator-indikator terpilih dan secara umum dari semua indikator
-2.	Overall matrix performance Health index dan Overall matrix on family abuse
+
+2.	IPKM overview
 Di dashboard ini akan membreakdown data per area dan per tahun yang dikehendaki, jadi akan terlihat korelasi antara index kesehatan dan parameter lainnya (seperti gizi buruk, tingkat ims dll), ini akan menyelesaikan masalah di point A B dan C.
 A. Menganalisa dan mengevaluasi masing-masing indikator
 B. Mencari korelasi antara indikator yang ada
 C. Membuktikan dan meilhat korelasi antara indikator kesehatan dan indikator kekerasan dalam rumah tangga
 
+
+
+<h2>4.	MVP Demonstration</h2>
+
+Dengan data sudah clean dan bersih lalu di olah dengan baik dan sesuai problem yang kita state sebelumnya, maka berikut ada MVP demonstration nya untuk menjelaskan terkait features dan juga functions. Berikut juga terlampir link dashboard untuk di coba lebih lanjut.
+
+_https://public.tableau.com/app/profile/keni.astarani/viz/JavaTeam_PLB1/CorrelationIndex?publish=yes_
+
+<h3>a. Homepage Dashboard</h3>
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture12.png" width="350" title="hover text">
+</p>
+
+
+Di dashboard awal ini kita menjelaskan apakah IPKM secara general dan juga share terkait data yang tersedia di dalam dashboard. Disini terdapat 3 tombol dengan penjelasan sebagai berikut:
+1.	Homepage: untuk kembali ke homepage awal yang berisi overview dashboard
+2.	IPKM Analysis: untuk masuk ke dashboard analisa yang lebih lanjut tentang overview data IPKM
+3.	Correlation Index: untuk masuk ke dashboard analisa korelasi data index kesehatan
+
+
+<h3>b.	IPKM Overview</h3>
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture13.png" width="350" title="hover text">
+</p>
+
+
+Dengan dashboard kedua ini, kita bisa melihat trendline index kesehatan dan juga korelasinya terhadap parameter lainnya seperti usia, ims, korban kekerasan dan parameter lainnya
+
+<h3>c.	Correlation Index</h3>
+
+ <p align="center">
+  <img src="https://github.com/Marwin88/Project-Lab-BI-1-Pacmann/blob/main/data/picture/Picture14.png" width="350" title="hover text">
+</p>
+
+Dengan correlation index ini akan langsung terlihat data korelasi nya antara index kesehatan dengan berbagai macam parameter, dengan itu kita bisa mendapatkan action call di dashboard ini.
+
+<h2>5.	Analisis & Kesimpulan</h2>
+
+Dengan hasil analisa yang kita lakukan di dashboard MVP sub-bab sebelumnya, terlihat beberapa point dibawah ini.
+
+a.	Terdapat korelasi antara index kesehatan dengan data pendukung lain di sisi kesehatan dan juga data kekerasan terhadap anak. Dapat di fokuskan analisa ke beberapa data outlier yang cukup ekstrim dan dapat dilihat di dashboard area kabupatennya.
+
+b.	Secara general terdapat 21% kasus kekerasan anak jika dicompare dengan data total KDRT data. Jadi perlindungan anak tetap harus di prioritaskan
+
+c.	Anak dengan korban kebijakan dan pelarangan akses bertemu orang tua adalah kasus yang paling berpengaruh terhadap kekerasan anak.
+
+d.	Dapat terlihat korban kekerasan berdasarkan umur dan pendidikan & jenis kelamin, mayoritas perempuan di usia 13-17th dengan tingkat pendidikan slta
+
+e.	Teryata tidak ada korelasi yang kuat antara kepala keluarga berdasarkan umur dengan index kesehatan dan index kekerasan sexual
+
+
+<h2>6.	Referensi</h2>
+KPAI Bank Data - Data Kasus Pengaduan Anak 2016 – 2020 | Bank Data Perlindungan Anak (kpai.go.id)
+
+West Java Health Index - Indeks Kesehatan Berdasarkan Kabupaten/Kota di Jawa Barat (jabarprov.go.id)
+
+Summary of Head of Family based on age group in West Java - Jumlah Kepala Keluarga Berdasarkan Golongan Umur di Jawa Barat (jabarprov.go.id)
+
+Violent Crime Victims based on age group in West Java - Jumlah Korban Kekerasan Berdasarkan Kelompok Usia di Jawa Barat (jabarprov.go.id)
+
+Percentage of People with health problems in West Java - Persentase Penduduk yang Mempunyai Keluhan Kesehatan Berdasarkan Kabupaten/Kota di Jawa Barat (jabarprov.go.id)
+
+Summary of Family Abuse based on gender in West Java - Jumlah Korban Kekerasan Dalam Rumah Tangga Bedasarkan Jenis Kelamin di Jawa Barat (jabarprov.go.id)
+
+Summary of family abuse victims based on education group in West Java - Jumlah Korban Kekerasan Berdasarkan Tingkat Pendidikan di Jawa Barat (jabarprov.go.id)
+
+Summary of Sexual Transmmited Disease case in West Java - Jumlah Kasus Penyakit Infeksi Menular Seksual (IMS) Berdasarkan Kabupaten/Kota di Jawa Barat (jabarprov.go.id)
+
+Summary of Pregnancy in West Java - https://opendata.jabarprov.go.id/id/dataset/jumlah-ibu-hamil-berdasarkan-kabupatenkota-di-jawa-barat
+
+Summary of undernourished toddler in West Java - Jumlah Balita Bergizi Kurang Berdasarkan Kabupaten/Kota di Jawa Barat (jabarprov.go.id)
+
+Summary of Malnourished Baby in West Java - Jumlah Bayi Bergizi Buruk Berdasarkan Kabupaten/Kota di Jawa Barat (jabarprov.go.id)
 
